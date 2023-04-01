@@ -274,7 +274,7 @@ table {
      margin: auto;
     }
     .banner h3{
-        margin: auto;
+        margin: 0 px 0 0px;
         width: auto;
         font-size: 36px;
         text-align: center;
@@ -283,13 +283,13 @@ table {
     }
 
     .banner p{
-        margin: auto;
+        margin: 0 20px 40px 20px;
         width: auto;
 
     }
 
     .img-banner{
-        
+        width: 75%;
         align-items: center;
         justify-self: center;
 
@@ -299,7 +299,7 @@ table {
     
     .card-container{
         
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(1,1fr);
         padding-left: 100px;
     
         
@@ -309,11 +309,14 @@ table {
         flex-flow: column;
         flex: content;
         
-        height: 200px;
+        
         
     }
-    .footer{
-        width: 100%; 
+    .footer {
+        text-align: center;
+        padding-right: 100px;
+        
+         
     }
 
     .title{
